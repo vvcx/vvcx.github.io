@@ -1,17 +1,4 @@
-* {
-   margin: 0;
-   border: 0;
-}
+body {
 
-.home-page {
-   width: 1000px;
-   margin: 0 auto；
-}
-
-li {
-   float: left;
-   width: 5em; 
-   margin: 10px 20px;
-   list-style: none;
-   text-align: center;
+   background-color: azure;
 }
