@@ -181,59 +181,8 @@ i.headerMask{
     z-index: 2;
 }
 
-
 .o{
     height: 2000px;
     width: 1160px;
     background-color: antiquewhite;
 }
-
-
-
-
-
-
-
-
-
-/* 
-body{
-    margin: 0 auto;
-    font:12px Helvetica,Helvetica,Arial,sans-serif;
-    
-}
-.headerBanner
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.topNav li{background-color: hsla(0,0%,100%,0);}
-.inline{display: inline;}
-.topNav1 li {float: left;}
-.topNav2,.topNav2 li,.topNav3 a,.topNav3 form{float: right}
-a:hover{background-color: #f1f1f1;}
-
-.topNav a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.headerBanner{
-    background-image: url(images/bilibili/banner.png);
-    background-position: center -10px;
-    z-index: 199;
-    height: 170px;
-    width: auto;
-}
-
-.topNav{
-    position: relative;
-    width: 1260px;
-} */
-
-
