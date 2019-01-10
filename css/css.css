@@ -1,0 +1,239 @@
+/* 清除浮动 */
+
+.clearfix:after {
+    content: '.';
+    visibility: hidden;
+    height: 0;
+    display: block;
+    clear: both;
+}
+*{
+    margin: 0 auto;padding: 0;
+    list-style: none;
+    font:12px Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+
+nav a{
+    color: #222;
+    height: 100%;
+    display: block;
+    padding: 0 7px;
+    text-align: center;
+    line-height: 42px;
+} 
+
+
+.wrapTop{position: relative;}
+.wrapBanner{}
+.topMost{position: relative;height: 42px;z-index: 99;}
+
+i.headerBanner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(images/bilibili/banner.png);
+    min-width: 1160px;
+    height: 100%;
+    background-position: center -10px;
+    filter: blur(4px);
+}
+
+i.headerMask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0,0%,100%,.4);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+.topNav{width: 1160px;}
+.topLeft > li, .topLeft{position: relative;float: left;}
+.topRight > li, .topRight{position: relative;float: right;}
+
+.topLeft li, .topRight li{
+    position: relative;
+    text-align: center;
+    line-height: 42px;
+    height: 42px;
+}
+
+.wholeBanner{
+    background-image: url(images/bilibili/banner.png);
+    position: relative;
+    height: 170px;
+    z-index: 0;
+    min-width: 1160px;
+    background-position: center -10px;
+    margin-top: -42px;
+}
+
+.banner{
+    position: relative;
+    width: 1160px;
+    height: 100%;
+}
+
+.topModule{
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    width:268px;
+    height:32px;
+    padding: 2px 2px 2px 72px;
+    background-color: rgba(0,0,0,.12);
+    border-radius: 6px;
+    font-size: 12px;
+    z-index: 99;
+}
+
+.topSearch{
+    background-color: hsla(0,0%,100%,.88);
+    display: block;
+    height: 32px;
+    border-radius: 4px;
+    transition: background-color .2s;
+}
+
+.topSearch input{
+    float: left;
+    width: 268px;
+    color: #222;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 32px;
+    padding: 0 12px;
+    border: 0;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.topSearch button{
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 48px;
+    cursor: pointer;
+    height: 32px;
+    background: url(images/bilibili/icons.png) -653px -720px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.topRanking{
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    height: 32px;
+    line-height: 32px;
+    background-color: hsla(0,0%,100%,.88);
+    border-radius: 4px;
+    width: 68px;
+    transition: background-color .2s;
+}
+
+.topRanking span{
+    padding-left: 26px;
+    color: #f25d8e;
+    display: inline-block;
+    background: url(images/bilibili/icons.png) -659px -655px no-repeat;
+
+}
+
+.logo{
+    display: block;
+    position: absolute;
+    left:0px;
+    top:50px;
+    background: url(images/bilibili/logo.png);
+    z-index: 99;
+    height: 105px;
+    width: 220px;
+}
+
+.wrapMenu{
+    position: relative;
+    width: 1160px;
+    height: 50px;
+    padding: 8px 0 0;
+    margin: 0 auto 4px;
+    z-index: 99;
+    border-bottom: 1px solid #fff;
+    border: #222 1px solid;
+}
+
+.menu{
+
+}
+
+.subMenu{
+    display: none;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    top: 44px;
+    background: #fff;
+    border: 1px solid\9;
+    border-top: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,.16);
+    border-radius: 0 0 4px 4px;
+    z-index: 2;
+}
+
+
+.o{
+    height: 2000px;
+    width: 1160px;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+/* 
+body{
+    margin: 0 auto;
+    font:12px Helvetica,Helvetica,Arial,sans-serif;
+    
+}
+.headerBanner
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topNav li{background-color: hsla(0,0%,100%,0);}
+.inline{display: inline;}
+.topNav1 li {float: left;}
+.topNav2,.topNav2 li,.topNav3 a,.topNav3 form{float: right}
+a:hover{background-color: #f1f1f1;}
+
+.topNav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.headerBanner{
+    background-image: url(images/bilibili/banner.png);
+    background-position: center -10px;
+    z-index: 199;
+    height: 170px;
+    width: auto;
+}
+
+.topNav{
+    position: relative;
+    width: 1260px;
+} */
+
+
